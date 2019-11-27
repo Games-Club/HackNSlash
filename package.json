@@ -1,0 +1,12 @@
+{
+  "name": "working-title",
+  "version": "0.0.0",
+  "description": "2d Hack-n-slash built in Phaser",
+  "main": "index.js",
+  "author": "Lucas James",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "phaser": "^3.21.0"
+  }
+}
