@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "downlevelIteration": true,
+        "noEmit": true,
+        "noErrorTruncation": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strict": true,
+        "target": "esnext"
+    },
+    "include": ["src/**/*"],
+    "baseUrl": "./src",
+    "paths": {
+        /* add your aliases here! */
+    }
+}
