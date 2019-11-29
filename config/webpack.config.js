@@ -4,7 +4,7 @@ const rootDirectory = path.resolve(__dirname, '..');
 
 module.exports = {
     mode: 'development',
-    entry: path.resolve(rootDirectory, 'src', 'index.js'),
+    entry: path.resolve(rootDirectory, 'src', 'index.ts'),
     output: {
         path: path.resolve(rootDirectory, 'dist'),
         filename: 'bundle.js'
@@ -12,7 +12,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.js/,
+                test: /\.(j|t)s/,
                 include: [
                     path.resolve(rootDirectory, 'src'),
                 ],
@@ -23,4 +23,7 @@ module.exports = {
             },
         ],
     },
+    resolve: {
+        extensions: ['.js', '.ts']
+    }
 }
