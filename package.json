@@ -26,6 +26,7 @@
     "webpack-cli": "^3.3.10"
   },
   "scripts": {
-    "webpack": "webpack --config config/webpack.config.js"
+    "webpack": "webpack --config config/webpack.config.js",
+    "lint": "eslint src/**/*.ts --max-warnings 0"
   }
 }
